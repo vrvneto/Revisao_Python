@@ -28,4 +28,3 @@ for num in range(3, 13, 3): # range(valor_de_inicio, valor_de_parada, e passo es
 # Forma 4 (inversa)
 for num in range(10, -1, -1): # range(valor_de_inicio, valor_de_parada, e passo especificado pelo usuário)
     print(num)
-    
