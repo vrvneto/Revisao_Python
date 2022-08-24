@@ -40,5 +40,32 @@ print(lista5.count('e'))
 print(lista1)
 lista1.append(42)
 print(lista1)
-# OBS: com append só é possível passar um elemento por vez.
 
+# OBS: com append só é possível passar um elemento por vez.
+# lista1.append(12, 34, 56) # Erro
+lista1.append([8, 3, 1])  # coloca como elemento único (sublista)
+print(lista1)
+if 22 in lista1:
+    print('Encontrei a lista')
+else:
+    print('Não encontrei a lista')
+
+# Extend adiciona mais de um elemento a lista.
+lista1.extend([123, 44, 67])
+print(lista1)
+
+# Podemos inserir um novo elemento na lista informando a posição do ídice (INSERT)
+lista1.insert(2, 'Novo Valor')
+print(lista1)
+# OBS: não substitui o valor, apenas desloca para a direita
+
+# Podemos facilmente juntar duas listas
+lista6 = lista1 + lista2
+print(lista6) # OBS pode ser feito com extend lista1.extend(lista2)
+
+# Podemos facilmente inverter uma lista (REVERSE)
+lista1.reverse()
+lista2.reverse()
+
+print(lista1)
+print(lista2)
