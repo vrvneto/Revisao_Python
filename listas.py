@@ -69,3 +69,42 @@ lista2.reverse()
 
 print(lista1)
 print(lista2)
+
+#Podemos Copiar uma lista (COPY)
+lista6 = lista2.copy()
+print(lista6)
+
+# Contar elementos de uma lista (len)
+print(len(lista5))
+
+#Podemos remover facilmente o ultimo elemento de uma lista (pop)
+print(lista5)
+lista5.pop()
+print(lista5)
+lista5.pop()
+print(lista5)
+# Podemos Remover um elemento pelo indice
+lista5.pop(2)
+print(lista5) # OBS: Os elementos a direita serão deslocados para a esquerda
+
+#Podemos remover todos os elementos(clear)
+lista5.clear()
+print(lista5)
+
+# Podemos repetir elementos em uma lista
+lista5 = [1, 2, 3]
+print(lista5)
+lista5 = lista5 * 3
+print(lista5)
+
+# Podemos converter uma string em lista
+# Exemplo 1
+curso = 'Programação em Python'
+print(curso)
+curso = curso.split()
+print(curso)
+
+# Podemos converter uma lista em string
+curso = ' '.join(curso)
+print(curso)
+ 
