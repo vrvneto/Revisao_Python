@@ -107,4 +107,19 @@ print(curso)
 # Podemos converter uma lista em string
 curso = ' '.join(curso)
 print(curso)
- 
+""" 
+# Iterando sobre listas
+# Exemplo 1 utilizando for
+for elemento in lista1:
+    print(elemento)
+# Exemplo 2 utilizando while
+carrinho = []
+produto = ''
+while produto != 'sair':
+    print("Adicione um produto na lista ou digite 'sair' para sair: ")
+    produto = input()
+    if produto != 'sair':
+        carrinho.append(produto)
+for produto in carrinho:
+    print(produto)
+"""
