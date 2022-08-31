@@ -4,7 +4,7 @@ LISTAS
 - Listas em python funciona como vetores/matrizes (arrays) em outras linguagens, com a diferença
 de serem DINÂMICO e tambem de podermos colocar qualquer tipo de dado.
 
-- Dinâmico: Não possui tamanho fixo; Ou seja, podemos criar a lista e simplismente ir adicionando
+- Dinâmico: Não possui tamanho fixo; Ou seja, podemos criar a lista e simplesmente ir adicionando
 elementos; Não possuem tipo de dado fixo.
 
 - As listas em Python são representadas por colchetes: [].
@@ -21,7 +21,7 @@ lista4 = list(range(11))
 
 lista5 = list('Geek University')
 
-# Podemos facilmente checar se determinado valor está contido n lista
+# Podemos facilmente checar se determinado valor está contido na lista.
 num = 7
 if num in lista4:
     print(f'Encontrei o número {num}')
