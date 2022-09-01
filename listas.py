@@ -147,3 +147,30 @@ print(numeros.index(24))
 numeros.sort()
 print(numeros)
 
+# Revisão de Slicing
+# lista[inicio:fim:passo]
+# range[inicio:fim:passo]
+
+# trabalhando com slice de lista com o parametro 'inicio'
+
+print(numeros[1:]) # iniciando do indice 1 e pegando todosm os restantes
+
+# trabalhando com slice de lista com o parâmetro 'fim'
+print(numeros[:14])
+
+# Trabalhando com slice de lista com o parâmetro ´passo´
+print(numeros[0::3]) # Começa do indice 0 e vai de 3 em 3
+
+# Soma*, Valor Maximo*, Valor Mínimo*, tamanho.
+print(sum(numeros))    # soma
+print(max(numeros))    # máximo valor
+print(min(numeros))    # mínimo valor
+print(len(numeros))    # tamanho da lista
+
+
+# Transformar uma lista em tupla
+print(type(numeros))
+tupla = tuple(numeros)
+print(tupla)
+print(type(numeros))
+
