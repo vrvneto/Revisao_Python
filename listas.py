@@ -123,3 +123,27 @@ while produto != 'sair':
 for produto in carrinho:
     print(produto)
 """
+# Podemos fazer acesso aos elementos de forma indexada
+cores = ['verde', 'amarelo', 'azul', 'branco']
+print(cores[0])
+print(cores[1])
+print(cores[2])
+print(cores[3])
+
+# Gerar indice em um for
+for indice, cor in enumerate(cores):
+    print(indice, cor)
+
+# Encontrar o indice de um elemento na lista
+numeros = [5, 7, 6, 8, 56, 43, 61, 12, 19, 13, 23, 31, 35, 44, 46, 34, 51, 24, 39]
+
+# Em qual indice está o valor 31?
+print(numeros.index(31))
+# Em qual indice está o valor 24?
+print(numeros.index(24))
+# OBS: Caso não tenha o lemento na lista será considerado erro (ValueError)
+
+# Ordenar lista 'numeros'
+numeros.sort()
+print(numeros)
+
